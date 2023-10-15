@@ -18,6 +18,7 @@
 		178410E82ADBDAD7001AB51D /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */; };
 		178410EB2ADBDBD8001AB51D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EA2ADBDBD8001AB51D /* Formatters.swift */; };
 		178410ED2ADBE15F001AB51D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EC2ADBE15F001AB51D /* ControlsView.swift */; };
+		178410EF2ADBFAAF001AB51D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EE2ADBFAAF001AB51D /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		178410EA2ADBDBD8001AB51D /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		178410EC2ADBE15F001AB51D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		178410EE2ADBFAAF001AB51D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,11 +121,12 @@
 		173D2C5A2ADB014000E6DDD6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				173D2C492ADAE4BD00E6DDD6 /* StartView.swift */,
-				173D2C5B2ADB015C00E6DDD6 /* SessionPagingView.swift */,
-				178410E52ADBB619001AB51D /* MetricsView.swift */,
-				178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */,
 				178410EC2ADBE15F001AB51D /* ControlsView.swift */,
+				178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */,
+				178410E52ADBB619001AB51D /* MetricsView.swift */,
+				173D2C5B2ADB015C00E6DDD6 /* SessionPagingView.swift */,
+				173D2C492ADAE4BD00E6DDD6 /* StartView.swift */,
+				178410EE2ADBFAAF001AB51D /* SummaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				178410E82ADBDAD7001AB51D /* ElapsedTimeView.swift in Sources */,
 				173D2C5C2ADB015C00E6DDD6 /* SessionPagingView.swift in Sources */,
 				178410EB2ADBDBD8001AB51D /* Formatters.swift in Sources */,
+				178410EF2ADBFAAF001AB51D /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
