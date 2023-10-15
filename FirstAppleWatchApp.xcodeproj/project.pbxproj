@@ -15,6 +15,8 @@
 		173D2C592ADAF5EB00E6DDD6 /* HKWorkoutActivityType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173D2C582ADAF5EB00E6DDD6 /* HKWorkoutActivityType+Extension.swift */; };
 		173D2C5C2ADB015C00E6DDD6 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173D2C5B2ADB015C00E6DDD6 /* SessionPagingView.swift */; };
 		178410E62ADBB619001AB51D /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410E52ADBB619001AB51D /* MetricsView.swift */; };
+		178410E82ADBDAD7001AB51D /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */; };
+		178410EB2ADBDBD8001AB51D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EA2ADBDBD8001AB51D /* Formatters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		173D2C582ADAF5EB00E6DDD6 /* HKWorkoutActivityType+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKWorkoutActivityType+Extension.swift"; sourceTree = "<group>"; };
 		173D2C5B2ADB015C00E6DDD6 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
 		178410E52ADBB619001AB51D /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		178410EA2ADBDBD8001AB51D /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				173D2C572ADAF5D600E6DDD6 /* Extensions */,
+				178410E92ADBDBC0001AB51D /* Helpers */,
 				173D2C5A2ADB014000E6DDD6 /* Views */,
 				173D2C472ADAE4BD00E6DDD6 /* FirstAppleWatchAppWatchAppImplementationApp.swift */,
 				173D2C4B2ADAE4BE00E6DDD6 /* Assets.xcassets */,
@@ -115,8 +120,17 @@
 				173D2C492ADAE4BD00E6DDD6 /* StartView.swift */,
 				173D2C5B2ADB015C00E6DDD6 /* SessionPagingView.swift */,
 				178410E52ADBB619001AB51D /* MetricsView.swift */,
+				178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		178410E92ADBDBC0001AB51D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				178410EA2ADBDBD8001AB51D /* Formatters.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +235,9 @@
 				178410E62ADBB619001AB51D /* MetricsView.swift in Sources */,
 				173D2C4A2ADAE4BD00E6DDD6 /* StartView.swift in Sources */,
 				173D2C482ADAE4BD00E6DDD6 /* FirstAppleWatchAppWatchAppImplementationApp.swift in Sources */,
+				178410E82ADBDAD7001AB51D /* ElapsedTimeView.swift in Sources */,
 				173D2C5C2ADB015C00E6DDD6 /* SessionPagingView.swift in Sources */,
+				178410EB2ADBDBD8001AB51D /* Formatters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
