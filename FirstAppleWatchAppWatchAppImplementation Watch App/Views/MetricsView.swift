@@ -11,7 +11,9 @@ import HealthKit
 struct MetricsView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("04.40.13")
+            ElapsedTimeView(
+                elapsedTime: 4 * 60 + 40.14
+            )
                 .foregroundColor(.yellow)
                 .fontWeight(.semibold)
             
