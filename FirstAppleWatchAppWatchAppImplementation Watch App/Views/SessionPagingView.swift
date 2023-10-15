@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WatchKit
 
 struct SessionPagingView: View {
     @State private var selectedTab: SelectedTab = .metrics
@@ -16,10 +17,9 @@ struct SessionPagingView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            Text("Controls").tag(SelectedTab.controls)
-            Text("Metrics").tag(SelectedTab.metrics)
-            Text("Now Playing").tag(SelectedTab.nowPlaying)
-
+            ControlsView().tag(SelectedTab.controls)
+            MetricsView().tag(SelectedTab.metrics)
+            NowPlayingView().tag(SelectedTab.nowPlaying)
         }
     }
 }

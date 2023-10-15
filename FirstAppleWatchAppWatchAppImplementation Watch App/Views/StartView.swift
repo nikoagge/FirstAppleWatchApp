@@ -19,7 +19,7 @@ struct StartView: View {
         List(workoutTypes) { workoutType in
             NavigationLink(
                 workoutType.name,
-                destination: Text(workoutType.name)
+                destination: SessionPagingView()
             ).padding(
                 EdgeInsets(
                     top: 13,
