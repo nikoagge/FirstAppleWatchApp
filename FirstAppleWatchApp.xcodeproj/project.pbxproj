@@ -19,6 +19,7 @@
 		178410EB2ADBDBD8001AB51D /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EA2ADBDBD8001AB51D /* Formatters.swift */; };
 		178410ED2ADBE15F001AB51D /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EC2ADBE15F001AB51D /* ControlsView.swift */; };
 		178410EF2ADBFAAF001AB51D /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410EE2ADBFAAF001AB51D /* SummaryView.swift */; };
+		178410F12ADC0F52001AB51D /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178410F02ADC0F52001AB51D /* ActivityRingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		178410EA2ADBDBD8001AB51D /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		178410EC2ADBE15F001AB51D /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		178410EE2ADBFAAF001AB51D /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		178410F02ADC0F52001AB51D /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		173D2C5A2ADB014000E6DDD6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				178410F02ADC0F52001AB51D /* ActivityRingsView.swift */,
 				178410EC2ADBE15F001AB51D /* ControlsView.swift */,
 				178410E72ADBDAD7001AB51D /* ElapsedTimeView.swift */,
 				178410E52ADBB619001AB51D /* MetricsView.swift */,
@@ -240,6 +243,7 @@
 				173D2C592ADAF5EB00E6DDD6 /* HKWorkoutActivityType+Extension.swift in Sources */,
 				178410E62ADBB619001AB51D /* MetricsView.swift in Sources */,
 				173D2C4A2ADAE4BD00E6DDD6 /* StartView.swift in Sources */,
+				178410F12ADC0F52001AB51D /* ActivityRingsView.swift in Sources */,
 				173D2C482ADAE4BD00E6DDD6 /* FirstAppleWatchAppWatchAppImplementationApp.swift in Sources */,
 				178410ED2ADBE15F001AB51D /* ControlsView.swift in Sources */,
 				178410E82ADBDAD7001AB51D /* ElapsedTimeView.swift in Sources */,
